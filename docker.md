@@ -1,0 +1,48 @@
+# Docker
+
+The folder of [docker containers files](https://github.com/medforomics/school/tree/master/docker)
+
+- abra2
+  - ABRA 2.20
+  - samtools 1.10
+- bcl2fastq
+  - Convert BCL to Fastq
+- dna_alignment
+   - bwa 0.7.17
+   - fgbio 1.1.0
+   - picard 2.21.7
+   - [process_scripts](https://github.com/medforomics/process_scripts.git)
+   - samtools markdup
+   - picard Picard MarkDuplicates
+   - picard_umi Picard MarkDuplicates BARCODE_TAG=RX 
+   - fgbio_umi GroupReadsByUmi, CallMolecularConsensusReads 
+- profiling_qc
+  - fastqc
+  - coveragebed
+  - samtools flagstat
+  - picard EstimateLibraryComplexity
+  - [process_scripts](https://github.com/medforomics/process_scripts.git)  
+- rna_alignment
+  - hisat2
+- rna_gene_abundance
+  - StringTie
+  - FeatureCount
+- starfusion
+  - StarFusion
+- structuralvariant
+  - pindel: PINDEL
+  - pindel_itd: PINDEL restricted to itd_genes.bed
+  - delly: DELLY 
+  - svaba: SVABA
+  - cnvkit: CNVKit
+  - itdseek: ITDSeek
+- trim_galore
+  - trim_galore_v0.4.1
+  - cutadapt==1.9.1
+  - [process_scripts](https://github.com/medforomics/process_scripts.git)
+- variantcalling
+  - fb: FreeBayes
+  - platypus: Platypus
+  - strelka2: Strelka2
+  - mutect: MuTect2 (GATK4)
+  - shimmer: Shimmer
