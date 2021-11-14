@@ -4,19 +4,13 @@ SCHOOL: Software for Clinical Health Omics Onocolgy Laboratories
 
 School is a collection of genomics analysis workflows that are used for detecting single nucleotide variants (SNVs), insertions/deletions (indels), copy number variants (CNVs) and translocations from RNA and DNA sequencing.  These workflows have been validated in a CLIA laboratory at UTSW
 
-### Clone repo
 
-For most recent published version
+**Repos**
+- [SCHOOL](https://github.com/bcantarel/school)
+- [Scripts](https://github.com/bcantarel/process_scripts)
+- [DNA Nexus Applets and Workflows](https://github.com/bcantarel/dnanexus_applets)
 
-```
-git clone -b version_1.0.3 --single-branch https://github.com/bcantarel/school.git
-```
-
-For most recent development version
-
-```
-git clone https://github.com/bcantarel/school.git
-```
+**Implementation**
 
 - Running School
   - [With Nextflow on HPC](nextflow)
